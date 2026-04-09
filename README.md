@@ -15,9 +15,12 @@ Forklayın, clone'layın ve bolca pushlayın...
 #### Notlar
 
 - `index.js` yi Nodemonla çalıştırmak için `npm run dev` komutunu kullanın.
-- Jest testleri için `npm test` komutunu kulanın.
 - Manuel testler için `index.js` içine console.log yazın. (örn. `console.log(car.drive(10));`).
 - Log çıktıları `npm run dev` yazdıktan sonra konsolda görünür.
+
+- Otomatik testleri çalıştırmadan önce proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Otomatik testleri çalıştırmak için `npm test` komutunu kullanın.
+- Test skorlarını NextGen'e `npm run sendresults` komutu ile kaydedin.
 
 #### İpuçları
 

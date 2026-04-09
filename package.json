@@ -4,14 +4,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "test": "cross-env NODE_ENV=testing jest --verbose"
+    "test": "cross-env NODE_ENV=testing jest --verbose",
+    "sendresults": "node sendTestResults.js"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.15.0",
     "jest": "^28.1.0",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "jest-ctrf-json-reporter": "^0.0.9"
+
   },
   "repository": {
     "type": "git",

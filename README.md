@@ -48,8 +48,8 @@ Each function above is covered by a dedicated `describe` block containing multip
 
 ```bash
 # Clone the repository
-git clone https://github.com/mertkaya20/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/mertkaya20/fsweb-s15g3-node-testing-project-1.git
+cd fsweb-s15g3-node-testing-project-1
 
 # Install dependencies
 npm install
@@ -120,8 +120,8 @@ Yukarıdaki her fonksiyon, birden fazla `test` senaryosu içeren ayrı bir `desc
 
 ```bash
 # Repoyu klonlayın
-git clone https://github.com/mertkaya20/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/mertkaya20/fsweb-s15g3-node-testing-project-1.git
+cd fsweb-s15g3-node-testing-project-1
 
 # Bağımlılıkları yükleyin
 npm install
@@ -159,4 +159,4 @@ npx jest
 
 ---
 
-_Built as part of a Full Stack Bootcamp — Workintech_
+_Built as part of a Full Stack Bootcamp — WorkInTech_
